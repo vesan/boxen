@@ -21,3 +21,7 @@ ruby::version::alias:
 
 # See https://github.com/boxen/puppet-java for docs
 java::update_version: 51
+
+git::config::global {  'user.email':
+  value  => 'vesa@vesavanska.com'
+}
