@@ -45,7 +45,7 @@ define shortcut ($app = $title, $menu, $key) {
   $shortcut = regsubst(regsubst(regsubst(regsubst($key, "cmd-", "@"), "ctrl-", "^"), "alt-|opt-", "~"), "shift-", "\$")
 
   exec { "${title} ${key} => ${menu}":
-    command => "defaults write ${app} NSUserKeyEquivalents -dict-add '${menu}' '${shortcut}'",
+    command => "defaults write ${app} NSUserKeyEquivalents -dict-add '${menu}' -string '${shortcut}'",
     unless  => "defaults read ${app} NSUserKeyEquivalents | grep '${menu}'"
   }
 }
