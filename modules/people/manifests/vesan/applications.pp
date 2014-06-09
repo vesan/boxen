@@ -17,6 +17,7 @@ class people::vesan::applications {
   package { 'reattach-to-user-namespace':
     ensure => present
   }
+  include ghostscript
 
   # Utilities
 

@@ -96,6 +96,9 @@ github "virtualbox"
 github "flux"
 github "github_for_mac"
 github "fantastical", "0.0.3", :repo => "demonbane/puppet-fantastical"
+github "ghostscript"
+github "autoconf"
+github "libtool"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

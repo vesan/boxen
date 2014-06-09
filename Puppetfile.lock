@@ -9,6 +9,11 @@ GITHUBTARBALL
     arq (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.4.2)
@@ -84,6 +89,11 @@ GITHUBTARBALL
     gcc (2.0.100)
 
 GITHUBTARBALL
+  remote: boxen/puppet-ghostscript
+  specs:
+    ghostscript (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (2.3.1)
@@ -142,6 +152,11 @@ GITHUBTARBALL
   remote: boxen/puppet-libreoffice
   specs:
     libreoffice (4.1.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-libtool
+  specs:
+    libtool (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-macvim
@@ -296,6 +311,7 @@ GITHUBTARBALL
 DEPENDENCIES
   alfred (>= 0)
   arq (>= 0)
+  autoconf (>= 0)
   boxen (= 3.4.2)
   caffeine (>= 0)
   chrome (>= 0)
@@ -312,6 +328,7 @@ DEPENDENCIES
   flux (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
+  ghostscript (>= 0)
   git (= 2.3.1)
   github_for_mac (>= 0)
   gitx (>= 0)
@@ -325,6 +342,7 @@ DEPENDENCIES
   java (>= 0)
   kindle (>= 0)
   libreoffice (>= 0)
+  libtool (>= 0)
   macvim (>= 0)
   module-data (= 0.0.3)
   nginx (= 1.4.3)
