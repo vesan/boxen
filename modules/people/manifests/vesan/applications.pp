@@ -53,7 +53,6 @@ class people::vesan::applications {
   class { 'libreoffice':
     version => '4.2.4',
   }
-  include fantastical
 
   # Tab switching keyboard bindings
 
