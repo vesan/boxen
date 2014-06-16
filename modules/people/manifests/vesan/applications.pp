@@ -18,6 +18,9 @@ class people::vesan::applications {
     ensure => present
   }
   include ghostscript
+  package { 's3cmd':
+    ensure => present
+  }
 
   # Utilities
 
