@@ -5,7 +5,6 @@ class people::vesan {
   include people::vesan::applications
 
   # Vim
-  include macvim
   package { 'vim':
     require => Package['mercurial']
   }

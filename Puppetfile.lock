@@ -159,11 +159,6 @@ GITHUBTARBALL
     libtool (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-macvim
-  specs:
-    macvim (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
@@ -343,7 +338,6 @@ DEPENDENCIES
   kindle (>= 0)
   libreoffice (>= 0)
   libtool (>= 0)
-  macvim (>= 0)
   module-data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
