@@ -4,7 +4,7 @@ class people::vesan::git {
   }
 
   git::config::global { 'user.name':
-    value  => $::boxen_user
+    value  => 'Vesa Vänskä'
   }
   git::config::global { 'user.email':
     value  => 'vesa@vesavanska.com'
