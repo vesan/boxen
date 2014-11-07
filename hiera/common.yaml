@@ -1,0 +1,5 @@
+ruby::global::version: "2.1.4"
+ruby::build::ensure: "v20141028"
+git::config::global {  'user.email':
+  value  => 'vesa@vesavanska.com'
+}
