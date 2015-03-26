@@ -22,8 +22,6 @@ class people::vesan::applications {
     ensure => present
   }
 
-  ruby::version { '2.2.1': }
-
   # Utilities
 
   include alfred
