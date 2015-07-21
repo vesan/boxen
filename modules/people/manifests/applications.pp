@@ -21,6 +21,12 @@ class people::vesan::applications {
   package { 's3cmd':
     ensure => present
   }
+  package { 'youtube-dl':
+    ensure => present
+  }
+  package { 'ffmpeg':
+    ensure => present
+  }
 
   # Utilities
 
