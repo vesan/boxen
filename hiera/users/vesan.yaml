@@ -2,3 +2,4 @@
 "git::version": "2.5.1"
 "ruby::provider": "rbenv"
 "ruby::build::ensure": "v20150818"
+"nodejs::provider": "nodenv"
