@@ -19,4 +19,8 @@ class people::vesan {
     path => "${boxen::config::home}/homebrew/bin",
     require => Package['vim']
   }
+
+  nodejs::version { 'v4.2.1': }
+  nodejs::version { 'v4.2.3': }
+  nodejs::version { 'v4.3': }
 }
