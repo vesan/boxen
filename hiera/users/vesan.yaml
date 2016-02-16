@@ -1,5 +1,5 @@
 ---
-"git::version": "2.5.1"
+"git::version": "2.7.1"
 "ruby::provider": "rbenv"
-"ruby::build::ensure": "v20150818"
+"ruby::build::ensure": "v20160130"
 "nodejs::provider": "nodenv"
