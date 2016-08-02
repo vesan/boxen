@@ -126,7 +126,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (2.0.0)
+    homebrew (2.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -286,7 +286,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
-    zsh (1.0.0)
+    zsh (1.0.1)
 
 GITHUBTARBALL
   remote: demonbane/puppet-fantastical
@@ -335,7 +335,7 @@ DEPENDENCIES
   gitx (>= 0)
   go (= 2.1.0)
   heroku (>= 0)
-  homebrew (= 2.0.0)
+  homebrew (= 2.0.2)
   hub (= 1.4.1)
   imagemagick (>= 0)
   inifile (= 1.4.1)
